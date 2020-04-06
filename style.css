@@ -920,7 +920,7 @@ button,
 }
 .input-box input:focus ~ .control-label,
 .input-box textarea:focus ~ .control-label {
-  color: #rgba(240, 131, 176, 0.9);
+  color: rgba(240, 131, 176, 0.9);
 }
 .input-box input:focus ~ .bar::before,
 .input-box textarea:focus ~ .bar::before {
