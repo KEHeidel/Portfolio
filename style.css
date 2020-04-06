@@ -615,8 +615,14 @@ button,
 }
 .skill-section-overlay{
 	padding: 60px 0 60px 0;
+	/* background: rgba(240, 131, 176, 0.9); */
 	background: rgba(240, 131, 176, 0.9);
+	background: -webkit-linear-gradient(left top, rgba(240, 131, 176, 0.9) 30%, rgba(61, 206, 216, 0.9) 100%);
+	background: -o-linear-gradient(bottom right, rgba(240, 131, 176, 0.9) 30%, rgba(61, 206, 216, 0.9) 100%);
+	background: -moz-linear-gradient(bottom right, rgba(240, 131, 176, 0.9) 30%, rgba(61, 206, 216, 0.9) 100%);
+	background: linear-gradient(to bottom right,  rgba(240, 131, 176, 0.9) 30%, rgba(61, 206, 216, 0.9) 100%);
 }
+
 .skill-section h2{
 	padding: 0px 15px;
 }
@@ -651,28 +657,7 @@ button,
 	margin-bottom: 3px;
 	display: block;
 }
-.progress-bar{
-	position: relative;
-	height: 6px;
-	background: rgba(255, 255, 255, 0.9);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	width: auto;
-	float: none;
-}
-.progress {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    width: 0px;
-    height: 6px;
-    margin-bottom: 0px;
-    background: rgba(61, 206, 216, 0.9);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-}
+
 /*End Skill Section*/
 
 
@@ -738,7 +723,7 @@ button,
 9. Statistics Section
 ------------------------*/
 .statistics-section{
-	background-image: url("images/statistic/statistic.jpg");
+	background-image: url("images/pics/aurora-1197753_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: 50% 0%;
