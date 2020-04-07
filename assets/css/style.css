@@ -321,7 +321,7 @@ button,
 3. Banner Section
 ------------------------*/
 .banner-section {
-	background-image: url("images/pics/dandelion-445228_1920.jpg");
+	background-image: url("../images/pics/dandelion-445228_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	-webkit-background-size: cover;
@@ -599,7 +599,7 @@ button,
 	background: #fff;
 }
 .skill-section-inner{
-	background-image: url("images/pics/thunderstorm-3625405_1920.jpg");
+	background-image: url("../images/pics/thunderstorm-3625405_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	/*background-position: 100% 50%;*/
@@ -625,6 +625,7 @@ button,
 	text-transform: capitalize;
 	font-weight: 600;
 	color:#fff;
+	text-align: center;
 }
 .skill-chart{
 	position: relative;
@@ -632,17 +633,12 @@ button,
 	font-size: 14px;
 	color: #fff;
 	font-weight: 600;
+	text-align: center;
 }
 .skill-section .col-md-4 .skill-chart:last-child {
 	margin-bottom: 0px;
 }
-.percent {
-    position: absolute;
-    right:0px;
-    bottom: 3px;
-    line-height: 40px;
-    font-size: 14px;
-}
+
 .skill-inner{
 	display: block;
 }
@@ -718,7 +714,7 @@ button,
 9. Statistics Section
 ------------------------*/
 .statistics-section{
-	background-image: url("images/pics/aurora-1197753_1920.jpg");
+	background-image: url("../images/pics/aurora-1197753_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: 50% 0%;
@@ -983,7 +979,7 @@ footer a:hover{
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	background-image: url("images/loading.png");
+	background-image: url("../images/loading.png");
 	background-size: cover;
 }
 .spiner {
