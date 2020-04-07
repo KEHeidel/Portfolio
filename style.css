@@ -24,16 +24,11 @@ CSS INDEX
 7. Work experience Section
 8. Portfolio section
 9. Statistics Section
-10. Service Section
-11. Interest Section
-12. Team Section
-13. Pricing Section
-14. Testimonial Section
-15. Client Section
-16. Contact Section
-17. Footer Section
-18. ScrollUp (Back to top)
-19. Preloader
+10. Interest Section
+11. Contact Section
+12. Footer Section
+13. ScrollUp (Back to top)
+14. Preloader
 
 -------------------------------------------*/
 
@@ -769,32 +764,7 @@ button,
 
 
 /*----------------------
-10. Service Section
-------------------------*/
-.service-section{
-	padding: 60px 0 0 0;
-}
-.service-inner {
-    position: relative;
-    padding-left: 58px;
-    min-height: 143px;
-    margin-bottom: 60px;
-}
-.service-inner h4{
-	font-weight: 600;
-}
-.service-inner i{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-size: 36px;
-	color:rgba(240, 131, 176, 0.9);
-}
-/*End Service Section*/
-
-
-/*----------------------
-11. Interest Section
+10. Interest Section
 ------------------------*/
 .interest-section {
 	padding: 60px 0px;
@@ -828,7 +798,7 @@ button,
 
 
 /*----------------------
-12. Contact Section
+11. Contact Section
 ------------------------*/
 .contact-section{
 	padding: 60px 0px;
@@ -952,7 +922,7 @@ button,
 
 
 /*----------------------
-17. Footer Section
+12. Footer Section
 ------------------------*/
 footer{
 	background: #2A2F33;
@@ -970,7 +940,7 @@ footer a:hover{
 
 
 /*----------------------
-18. ScrollUp (Back to top)
+13. ScrollUp (Back to top)
 ------------------------*/
 #scrollUp {
     bottom: 12px;
@@ -992,7 +962,7 @@ footer a:hover{
 
 
 /*----------------------
-19. Preloader
+14. Preloader
 ------------------------*/
 .loader {
     position:fixed;
